@@ -29,6 +29,7 @@ GPU" come acceleratore hardware;
 
 – caricare il dataset in formato "xlsx" direttamente all’interno del notebook
 di Colab all’interno della cartella "sample_data" (situata nella sezione File);
+
 ![Testo alternativo](immagini/sample_data.png)
 
 ### 🔹 3. Esegui il codice
