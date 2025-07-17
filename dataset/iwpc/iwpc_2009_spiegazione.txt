@@ -1,0 +1,42 @@
+📄 IWPC 2009 – Dataset per il Dosaggio del Warfarin
+
+📌 Descrizione
+
+Il dataset IWPC 2009 è stato sviluppato dall'International Warfarin Pharmacogenetics Consortium (IWPC) con l'obiettivo di creare un algoritmo per il dosaggio del warfarin basato su dati clinici e genetici. Il warfarin è un anticoagulante orale utilizzato per prevenire e trattare trombosi e embolie. Tuttavia, la dose ottimale varia significativamente tra i pazienti a causa di fattori genetici e clinici.
+
+🎯 Obiettivo del Dataset
+
+Il dataset è progettato per affrontare un problema di regressione, in quanto mira a prevedere una variabile continua: la dose terapeutica settimanale di warfarin (espressa in mg/settimana). L'accurata previsione della dose è cruciale per evitare complicanze come emorragie o trombosi.
+
+📊 Variabili Principali
+
+Il dataset include una vasta gamma di variabili, suddivise in diverse categorie:
+
+Variabili Demografiche e Cliniche
+Età: Età del paziente al momento dell'inizio della terapia.
+Peso: Peso corporeo del paziente.
+Altezza: Altezza del paziente.
+Sesso: Maschio o Femmina.
+Etnia: Categoria etnica del paziente.
+Fumatore Attuale: Indicatore se il paziente è un fumatore attivo.
+INR al Dosaggio Terapeutico: Valore dell'INR (International Normalized Ratio) quando il paziente ha raggiunto la dose terapeutica stabile.
+Variabili Genetiche
+Genotipo CYP2C9: Varianti del gene CYP2C9 (*1, *2, *3, ecc.), che influenzano il metabolismo del warfarin.
+Genotipo VKORC1: Varianti del gene VKORC1 (es. -1639 G>A), che influenzano la sensibilità al warfarin.
+Farmaci Concomitanti
+Amiodarone: Indicatore se il paziente assume amiodarone, che può interagire con il warfarin.
+Altri Farmaci: Presenza di altri farmaci che possono influenzare il metabolismo o l'efficacia del warfarin.
+Variabile Target
+Dose Terapeutica di Warfarin: Dose settimanale stabile di warfarin necessaria per raggiungere l'INR terapeutico desiderato.
+📈 Applicazioni del Dataset
+
+Il dataset IWPC 2009 è stato utilizzato per sviluppare e validare modelli predittivi della dose di warfarin, combinando dati clinici e genetici. L'algoritmo risultante ha dimostrato una maggiore accuratezza nella previsione della dose terapeutica rispetto ai metodi basati solo su dati clinici, specialmente nei pazienti che richiedono dosi molto basse (≤21 mg/settimana) o molto alte (≥49 mg/settimana).
+
+📚 Riferimenti
+
+Articolo Originale: Estimation of the warfarin dose with clinical and pharmacogenetic data – New England Journal of Medicine, 2009. DOI: 10.1056/NEJMoa0809329
+PharmGKB IWPC Page: https://www.pharmgkb.org/page/iwpc
+Warfarin Dosing Tool: https://www.warfarindosing.org
+📂 Accesso al Dataset
+
+Il dataset è disponibile per il download su PharmGKB: https://www.pharmgkb.org/downloads
